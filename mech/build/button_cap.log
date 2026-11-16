@@ -1,0 +1,8 @@
+cap valid: True solids: 1 volume cm3: 1.215
+cap box X -15.20..15.20  Y -15.20..15.20  Z 21.40..26.70 (rest)
+top thickness: 1.20 at the rim, 0.90 at the centre of the dish
+top at rest 26.70 = 2.30 proud of the lid; at full press 23.70 = 0.70 below the lid top
+flange bottom: 21.40 at rest, 18.40 at full press (board back at 17.50)
+exported /Users/drewradcliff/repos/chat-node/mech/button_cap.step (coloured, GUI)
+fab: {"volume_cm3": 1.215, "area_cm2": 22.2, "size_x_mm": 30.4, "size_y_mm": 30.4, "size_z_mm": 5.3}
+OK

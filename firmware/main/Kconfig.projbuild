@@ -1,0 +1,122 @@
+menu "chat-node"
+
+    menu "Audio"
+        choice CHAT_NODE_RATE
+            prompt "Default wire sample rate"
+            default CHAT_NODE_RATE_24K
+            help
+                Sample rate of the mono 16-bit PCM exchanged with the gateway.
+                The gateway may override it at runtime with a config message.
+            config CHAT_NODE_RATE_16K
+                bool "16000 Hz"
+            config CHAT_NODE_RATE_24K
+                bool "24000 Hz"
+            config CHAT_NODE_RATE_48K
+                bool "48000 Hz"
+        endchoice
+
+        config CHAT_NODE_SAMPLE_RATE
+            int
+            default 16000 if CHAT_NODE_RATE_16K
+            default 24000 if CHAT_NODE_RATE_24K
+            default 48000 if CHAT_NODE_RATE_48K
+
+        config CHAT_NODE_MIC_GAIN_SHIFT
+            int "Mic digital gain (left shift, 6 dB per step)"
+            range 0 8
+            default 3
+            help
+                Applied when converting the mic's 24-bit samples to 16-bit.
+
+        config CHAT_NODE_MIC_HPF_HZ
+            int "Mic DC-blocking high-pass corner (Hz)"
+            range 10 300
+            default 80
+
+        config CHAT_NODE_MIC_QUEUE_MS
+            int "Mic send queue length (ms)"
+            range 100 2000
+            default 400
+            help
+                Mic frames waiting for the network. When full, new frames are
+                dropped rather than blocking the capture task.
+
+        config CHAT_NODE_JITTER_MS
+            int "Playback jitter buffer target (ms)"
+            range 20 500
+            default 80
+
+        config CHAT_NODE_PLAYBACK_BUFFER_KB
+            int "Playback ring buffer in PSRAM (KiB, power of two)"
+            default 512
+            help
+                Must be a power of two. 512 KiB holds ~10.9 s at 24 kHz.
+
+        config CHAT_NODE_DEFAULT_VOLUME
+            int "Default speaker volume (0-100)"
+            range 0 100
+            default 70
+
+        config CHAT_NODE_OUTPUT_CEILING_DB
+            int "Speaker output ceiling (dBFS peak)"
+            range -30 0
+            default -6
+            help
+                Full-scale input at volume 100 is scaled to this peak level so
+                the 3 W amp cannot brown out a 500 mA USB source.
+
+        config CHAT_NODE_AMP_IDLE_OFF_MS
+            int "Turn the amp off after this much silence (ms)"
+            range 50 10000
+            default 500
+
+        config CHAT_NODE_FULL_DUPLEX
+            bool "Full duplex: keep mic streaming while speaking (experimental)"
+            default n
+    endmenu
+
+    menu "Button"
+        config CHAT_NODE_DEBOUNCE_MS
+            int "Debounce time (ms)"
+            default 15
+        config CHAT_NODE_LONG_PRESS_MS
+            int "Long press (mic mute toggle) (ms)"
+            default 1500
+        config CHAT_NODE_DOUBLE_PRESS_MS
+            int "Double press window (ms)"
+            default 350
+        config CHAT_NODE_RESET_WARNING_MS
+            int "Hold time before the LED warns of a factory reset (ms)"
+            default 5000
+        config CHAT_NODE_FACTORY_RESET_MS
+            int "Hold time for factory reset of stored credentials (ms)"
+            default 10000
+    endmenu
+
+    config CHAT_NODE_LED_BRIGHTNESS
+        int "LED brightness (0-255)"
+        range 0 255
+        default 48
+
+    menu "Network"
+        config CHAT_NODE_BACKOFF_MIN_MS
+            int "Reconnect backoff, first delay (ms)"
+            default 1000
+        config CHAT_NODE_BACKOFF_MAX_MS
+            int "Reconnect backoff, longest delay (ms)"
+            default 60000
+        config CHAT_NODE_KEEPALIVE_S
+            int "Application keepalive ping interval (s)"
+            range 5 120
+            default 15
+        choice CHAT_NODE_WIFI_PS
+            prompt "Wi-Fi power save"
+            default CHAT_NODE_WIFI_PS_NONE
+            config CHAT_NODE_WIFI_PS_NONE
+                bool "None (lowest latency, USB powered)"
+            config CHAT_NODE_WIFI_PS_MIN_MODEM
+                bool "Minimum modem sleep"
+        endchoice
+    endmenu
+
+endmenu

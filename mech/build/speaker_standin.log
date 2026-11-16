@@ -1,0 +1,4 @@
+speaker stand-in valid: True True
+speaker box X -65.00..-25.00  Y -20.00..20.00  Z 3.30..20.80
+exported /Users/drewradcliff/repos/chat-node/mech/speaker_standin.step (coloured, GUI)
+OK

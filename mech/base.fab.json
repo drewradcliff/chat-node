@@ -1,0 +1,18 @@
+{
+  "kind": "3dp",
+  "name": "Base plate",
+  "source": "base.step",
+  "qty": 1,
+  "options": {
+    "process": "mjf",
+    "material": "pa12",
+    "color": "black"
+  },
+  "features": {
+    "volume_cm3": 9.355,
+    "area_cm2": 98.72,
+    "size_x_mm": 97.1,
+    "size_y_mm": 48.0,
+    "size_z_mm": 2.6
+  }
+}

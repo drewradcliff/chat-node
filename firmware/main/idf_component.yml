@@ -1,0 +1,5 @@
+dependencies:
+  idf: ">=5.3"
+  espressif/esp_websocket_client: "^1.2.3"
+  # Pinned below 3.x: led.c uses the 2.x config fields (led_pixel_format, led_model).
+  espressif/led_strip: "^2.5.3"

@@ -1,0 +1,8 @@
+shell valid: True solids: 1 volume cm3: 27.72
+shell box X -69.48..31.98  Y -26.18..26.18  Z -0.00..24.40
+grille: 62 holes of 2.8, open area 382 mm2 = 38% of the 35.6 opening, web 1.20
+mic tube length: 4.30 (hole 1.5)
+lid left over PCB pilot holes: 1.40
+exported /Users/drewradcliff/repos/chat-node/mech/shell.step (coloured, GUI)
+fab: {"volume_cm3": 27.717, "area_cm2": 258.09, "size_x_mm": 100.3, "size_y_mm": 51.2, "size_z_mm": 24.4}
+OK

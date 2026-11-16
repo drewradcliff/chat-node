@@ -1,0 +1,6 @@
+base valid: True solids: 1 volume cm3: 9.36
+base box X -67.30..29.80  Y -24.00..24.00  Z -0.00..2.60
+speaker pad top Z 2.60, speaker back Z 3.30: gap 0.70 for a 1.0 foam pad
+exported /Users/drewradcliff/repos/chat-node/mech/base.step (coloured, GUI)
+fab: {"volume_cm3": 9.355, "area_cm2": 98.72, "size_x_mm": 97.1, "size_y_mm": 48.0, "size_z_mm": 2.6}
+OK

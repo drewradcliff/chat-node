@@ -1,0 +1,57 @@
+board body in the device frame: X -20.00..28.00  Y -15.00..22.00  Z 15.99..17.50
+BOARD
+  board (STEP) vs shell                                common volume 0.0000 mm3  ok
+  board stand-ins (switch, USB, JST plug, tacts, screw heads) vs shell common volume 0.0000 mm3  ok
+  board (STEP) vs base                                 common volume 0.0000 mm3  ok
+  board stand-ins vs base                              common volume 0.0000 mm3  ok
+  PCB outline to the shell walls                       1.00 mm (need 1.00)  ok
+  lowest board part (JST plug) to the base             3.90 mm (need 1.00)  ok
+  JST connector to the partition                       4.00 mm (need 1.00)  ok
+BUTTON CAP
+  cap vs shell, at rest                                common volume 0.0000 mm3  ok
+  cap vs shell, full press                             common volume 0.0000 mm3  ok
+  cap to shell, at rest                                0.30 mm (need 0.25)  ok
+  cap to shell, full press                             0.31 mm (need 0.25)  ok
+  cap vs board, full press                             common volume 0.0000 mm3  ok
+  cap flange to the board back, full press             0.90 mm (need 0.30)  ok
+  cap vs switch housing + stem (prongs in slots), at rest common volume 0.0000 mm3  ok
+  cap (without prongs) vs switch housing, full press   common volume 0.0000 mm3  ok
+  cap ceiling to switch housing top at full press: 0.00 mm (they meet: the housing is the hard stop)
+  cap skirt to switch housing corners (radial)         2.19 mm (need 1.00)  ok
+  cap flange to the H3 boss (radial)                   0.40 mm (need 0.30)  ok
+  cap flange to the microphone boss (radial)           2.17 mm (need 0.30)  ok
+  cap lift before the flange cone meets the lid seat: 0.50 mm
+SPEAKER
+  speaker vs shell                                     common volume 0.0000 mm3  ok
+  gasket vs shell                                      common volume 0.0000 mm3  ok
+  speaker vs base                                      common volume 0.0000 mm3  ok
+  speaker rim to the locating ring (radial, nominal)   0.30 mm (need 0.15)  ok
+  speaker to shell (anywhere)                          0.30 mm (need 0.15)  ok
+  magnet to the base pad: 0.70 mm, filled by the 1.0 mm foam pad
+  free air in front of the speaker's front face: 1.80 mm (gasket 1.2 + lid recess 0.6)
+USB-C
+  receptacle vs shell                                  common volume 0.0000 mm3  ok
+  plug overmould (12.35 x 6.5, r 1.5) vs shell         common volume 0.0000 mm3  ok
+  receptacle to shell                                  2.04 mm (need 0.20)  ok
+  plug overmould to the opening                        0.27 mm (need 0.20)  ok
+  opening 13.4 x 7.4 centred X 3.50 Z 14.32; receptacle 8.94 x 3.16 centred X 3.50 Z 14.32; mouth 2.6 inside the outer wall surface
+ANTENNA KEEP-OUT
+  antenna to shell (plastic)                           2.00 mm (need 1.50)  ok
+  antenna to base (plastic)                            10.70 mm (need 1.50)  ok
+  antenna to button cap, full press (plastic)          3.39 mm (need 1.50)  ok
+  antenna to base screw 1 at (-62.5, 19.2) (metal)     76.78 mm (need 15.00)  ok
+  antenna to base screw 2 at (-62.5, -19.2) (metal)    69.02 mm (need 15.00)  ok
+  antenna to base screw 3 at (-24.5, 19.5) (metal)     45.62 mm (need 15.00)  ok
+  antenna to base screw 4 at (-10.0, -19.6) (metal)    16.59 mm (need 15.00)  ok
+  antenna to PCB screw H1 (metal)                      32.10 mm (need 15.00)  ok
+  antenna to PCB screw H2 (metal)                      40.66 mm (need 15.00)  ok
+  antenna to PCB screw H3 (metal)                      20.23 mm (need 15.00)  ok
+  antenna to speaker (metal)                           36.19 mm (need 15.00)  ok
+  note: the Choc switch (board part, metal contacts) is 7.8 mm from the antenna region
+BASE / SHELL
+  base vs shell                                        common volume 0.0000 mm3  ok
+  base to shell: 0.00 mm (seated on the rim step, the bosses and the partition)
+RESULT: all checks pass
+board imported: 383 objects, 1 root(s)
+exported /Users/drewradcliff/repos/chat-node/mech/assembly.step (coloured, GUI)
+OK

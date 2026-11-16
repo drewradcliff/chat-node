@@ -1,0 +1,18 @@
+{
+  "kind": "3dp",
+  "name": "Shell",
+  "source": "shell.step",
+  "qty": 1,
+  "options": {
+    "process": "mjf",
+    "material": "pa12",
+    "color": "black"
+  },
+  "features": {
+    "volume_cm3": 27.717,
+    "area_cm2": 258.09,
+    "size_x_mm": 100.3,
+    "size_y_mm": 51.2,
+    "size_z_mm": 24.4
+  }
+}

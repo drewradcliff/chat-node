@@ -1,0 +1,37 @@
+** Drc report for chat-node.kicad_pcb **
+** Created on 2026-11-12T21:09:14 **
+** Report includes: Errors, Warnings **
+
+** Found 5 DRC violations **
+[silk_edge_clearance]: Silkscreen clipped by board edge (board setup constraints silk clearance 0.0500 mm; actual 0.0000 mm)
+    Rule: board setup constraints silk; warning
+    @(103.0000 mm, 114.0000 mm): Arc on Edge.Cuts
+    @(102.8000 mm, 121.1500 mm): Segment of U1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge (board setup constraints silk clearance 0.0500 mm; actual 0.0000 mm)
+    Rule: board setup constraints silk; warning
+    @(149.0000 mm, 115.0000 mm): Segment on Edge.Cuts
+    @(121.2000 mm, 121.1500 mm): Segment of U1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge (board setup constraints silk clearance 0.0500 mm; actual 0.0000 mm)
+    Rule: board setup constraints silk; warning
+    @(103.0000 mm, 78.0000 mm): Segment on Edge.Cuts
+    @(121.8000 mm, 78.6500 mm): Segment of J1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge (board setup constraints silk clearance 0.0500 mm; actual 0.0000 mm)
+    Rule: board setup constraints silk; warning
+    @(103.0000 mm, 78.0000 mm): Segment on Edge.Cuts
+    @(131.2000 mm, 78.6500 mm): Segment of J1 on F.Silkscreen
+[lib_footprint_mismatch]: Footprint 'ESP32-S3-WROOM-1' does not match copy in library 'RF_Module'
+    Local override; warning
+    @(112.0000 mm, 108.2500 mm): Footprint U1
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

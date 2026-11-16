@@ -1,0 +1,4 @@
+(version 1)
+(rule "reverse_mount_led_cutout"
+  (condition "A.memberOfFootprint('D1')")
+  (constraint edge_clearance (min 0.2mm)))
