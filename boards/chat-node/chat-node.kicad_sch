@@ -8473,7 +8473,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "0c768a4e-1103-51ec-90d1-8bd832834cba")
 		(property "Reference" "H2"
@@ -10845,7 +10845,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "3a03c431-9367-5b7b-abec-8eb5365db2da")
 		(property "Reference" "TP2"
@@ -11000,7 +11000,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "3aa6728e-bb08-57ae-9a46-4a07ae452573")
 		(property "Reference" "TP7"
@@ -11411,7 +11411,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "5e44c6d3-c7a0-52fa-88f5-b9103f52d9e0")
 		(property "Reference" "TP6"
@@ -12221,7 +12221,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "7c31b081-3972-5199-82e7-c3e822774b82")
 		(property "Reference" "SW1"
@@ -13037,7 +13037,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "9144d674-1e1b-5372-9638-b68b4f7ab9b7")
 		(property "Reference" "TP8"
@@ -13114,7 +13114,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "938e74b1-b799-5116-a4c1-cf4b027898a0")
 		(property "Reference" "TP4"
@@ -13458,7 +13458,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "9a85d16f-cca3-5295-924f-bd6881263b56")
 		(property "Reference" "H1"
@@ -13912,7 +13912,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "bde240f8-786b-5f8f-8a64-e8c201abd602")
 		(property "Reference" "TP1"
@@ -14259,7 +14259,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "cb83ef1d-9b64-538f-b47e-3314ade7a142")
 		(property "Reference" "TP3"
@@ -15359,7 +15359,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "edf28f0d-4cca-5bf1-9019-5a6c64563fbc")
 		(property "Reference" "H3"
