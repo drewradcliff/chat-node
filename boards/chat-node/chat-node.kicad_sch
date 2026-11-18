@@ -3940,6 +3940,314 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "R_Small_US_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small_US"
+				(at 0.762 -1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, small US symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Small_US_1_1_1"
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "R_Small_US_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small_US"
+				(at 0.762 -1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, small US symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Small_US_2_1_1"
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -6054,17 +6362,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 97.79) (xy 190.5 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 140 140 1)
-		)
-		(uuid "171c2e5a-25fa-56a4-a98d-0e0fb7aef98f")
-	)
-	(wire
-		(pts
 			(xy 335.28 69.85) (xy 335.28 72.39)
 		)
 		(stroke
@@ -6241,17 +6538,6 @@
 			(color 130 50 180 1)
 		)
 		(uuid "43b06dc6-f14a-5f3a-95ee-7c98e6103bd3")
-	)
-	(wire
-		(pts
-			(xy 130.81 167.64) (xy 138.43 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 130 50 180 1)
-		)
-		(uuid "47947940-57b7-5756-be53-3f9d33b27439")
 	)
 	(wire
 		(pts
@@ -6727,17 +7013,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 170.18) (xy 138.43 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 130 50 180 1)
-		)
-		(uuid "a9c1c1ca-cb6d-570a-a264-5693dacc0eb1")
-	)
-	(wire
-		(pts
 			(xy 320.04 60.96) (xy 360.68 60.96)
 		)
 		(stroke
@@ -6820,16 +7095,6 @@
 			(type default)
 		)
 		(uuid "cda95e5c-c6dd-5ed8-859a-1283786132c0")
-	)
-	(wire
-		(pts
-			(xy 177.8 82.55) (xy 180.34 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf5297a4-ccc8-41ae-a1d9-5020a29db046")
 	)
 	(wire
 		(pts
@@ -7136,16 +7401,6 @@
 		)
 		(uuid "62a83a42-ac08-5b1c-9e1f-3e12fec51291")
 	)
-	(label "GND"
-		(at 180.34 82.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6d0f66ef-5e11-4ddf-8dff-9d2f9ec27061")
-	)
 	(label "MIC_SD"
 		(at 92.71 198.12 180)
 		(effects
@@ -7156,17 +7411,6 @@
 			(justify right bottom)
 		)
 		(uuid "70ec5af9-dc82-5266-897e-5f6bc2975290")
-	)
-	(label "MIC_SD"
-		(at 190.5 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 0 140 140 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "735de1b0-0f45-5635-93b2-483d5fb2879d")
 	)
 	(label "MIC_SCK"
 		(at 92.71 190.5 180)
@@ -10271,7 +10515,7 @@
 	)
 	(symbol
 		(lib_id "chat-node:T3902")
-		(at 167.64 85.09 0)
+		(at 165.1 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10281,7 +10525,7 @@
 		(dnp no)
 		(uuid "35a9bbdc-67c5-4ac6-9df2-ffab12c4fdb8")
 		(property "Reference" "MK1"
-			(at 172.72 78.74 0)
+			(at 170.18 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10291,7 +10535,7 @@
 			)
 		)
 		(property "Value" "T3902"
-			(at 176.53 91.44 0)
+			(at 173.99 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10301,7 +10545,7 @@
 			)
 		)
 		(property "Footprint" "chat-node:TDK_T3902_LGA-5_3.5x2.65mm"
-			(at 167.64 85.09 0)
+			(at 165.1 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10312,7 +10556,7 @@
 			)
 		)
 		(property "Datasheet" "TDK InvenSense DS-000357 (T3902 datasheet v1.0)"
-			(at 167.64 85.09 0)
+			(at 165.1 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10323,7 +10567,7 @@
 			)
 		)
 		(property "Description" "PDM digital MEMS microphone, bottom port, 1.65-3.63 V, LGA-5 3.5x2.65 mm (TDK T3902; same pads and pinout as Knowles SPH0641LU4H-1)"
-			(at 167.64 85.09 0)
+			(at 165.1 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10334,19 +10578,19 @@
 			)
 		)
 		(property "MPN" "MMICT3902-00-012"
-			(at 167.64 85.09 0)
+			(at 165.1 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
 		)
 		(property "Manufacturer" "TDK InvenSense"
-			(at 167.64 85.09 0)
+			(at 165.1 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
 		)
 		(property "LCSC" "C3171752"
-			(at 167.64 85.09 0)
+			(at 165.1 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -10836,6 +11080,106 @@
 			(project "chat-node"
 				(path "/3b3ca154-9241-5c62-8dd2-be353e53b093"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_Small_US_1")
+		(lib_id "Device:R_Small_US")
+		(at 140.97 167.64 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "50dcd499-7a36-4348-a61e-4ba58651ee20")
+		(property "Reference" "R8"
+			(at 140.462 166.878 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22R"
+			(at 141.986 166.878 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 140.97 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 140.97 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF220JTCE"
+			(at 140.97 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 140.97 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+		)
+		(property "LCSC" "C25092"
+			(at 140.97 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+		)
+		(pin "2"
+			(uuid "b8ee081d-464f-44d4-a605-3cad9862268e")
+		)
+		(pin "1"
+			(uuid "cd8d7b63-9011-454e-83bf-a2f69efc679d")
+		)
+		(instances
+			(project "chat-node"
+				(path "/3b3ca154-9241-5c62-8dd2-be353e53b093"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -14152,6 +14496,106 @@
 			(project "chat-node"
 				(path "/3b3ca154-9241-5c62-8dd2-be353e53b093"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_Small_US_2")
+		(lib_id "Device:R_Small_US")
+		(at 140.97 172.72 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d30425a5-60ec-4f45-ac94-92627acd1b92")
+		(property "Reference" "R9"
+			(at 140.462 171.958 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22R"
+			(at 141.986 171.958 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 140.97 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 140.97 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF220JTCE"
+			(at 140.97 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 140.97 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+		)
+		(property "LCSC" "C25092"
+			(at 140.97 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+		)
+		(pin "1"
+			(uuid "d0e00dca-b21f-40bd-8a78-27bc08564533")
+		)
+		(pin "2"
+			(uuid "048dc14f-a856-4652-85de-d90dfb1f1a7d")
+		)
+		(instances
+			(project "chat-node"
+				(path "/3b3ca154-9241-5c62-8dd2-be353e53b093"
+					(reference "R9")
 					(unit 1)
 				)
 			)
