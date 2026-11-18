@@ -5702,7 +5702,7 @@
 		)
 		(uuid "13e1a0c6-bcb7-524f-92ef-92059f4f7be4")
 	)
-	(text "GPIO35-37: octal PSRAM inside the module, not usable.\nGPIO0, 3, 45, 46: strapping pins, left at their defaults\n(GPIO0: BOOT button plus the chip pull-up, as on the DevKitC-1).\nGPIO8, 9, 10, 12, 17, 18: free for later use. UART0 (GPIO43/44) is unused:\nthe console is the native USB port.\nMic on I2S0 and amplifier on I2S1 keep separate clocks,\nso full duplex can be tried later."
+	(text "GPIO35-37: octal PSRAM inside the module, not usable.\nGPIO0, 3, 45, 46: strapping pins, left at their defaults\n(GPIO0: BOOT button plus the chip pull-up, as on the DevKitC-1).\nGPIO8, 9, 10, 12, 13, 17, 18: free for later use. UART0 (GPIO43/44) is unused:\nthe console is the native USB port. R8/R9 are the series resistors\nEspressif asks for next to the USB pins.\nMic on I2S0 (PDM) and amplifier on I2S1 keep separate clocks,\nso full duplex can be tried later."
 		(exclude_from_sim no)
 		(at 20.32 231.14 0)
 		(effects
@@ -5750,7 +5750,7 @@
 		)
 		(uuid "49f690e2-1e19-5ff6-8b63-4df61b43c3f3")
 	)
-	(text "LR low: data in the left slot."
+	(text "SELECT low: data on the clock-low half (DATA1, right slot).\nNo pull resistor on DATA, per the T3902 datasheet."
 		(exclude_from_sim no)
 		(at 121.92 114.3 0)
 		(effects
@@ -5761,7 +5761,7 @@
 		)
 		(uuid "584ec007-f268-5782-ae20-c117d0af1fd4")
 	)
-	(text "I2S MEMS MICROPHONE"
+	(text "PDM MEMS MICROPHONE"
 		(exclude_from_sim no)
 		(at 121.28 72.98 0)
 		(effects
@@ -6403,6 +6403,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 167.64) (xy 153.67 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20610a61-07f0-47d9-8bd8-2f828c6b2fcc")
+	)
+	(wire
+		(pts
 			(xy 54.61 68.58) (xy 60.96 68.58)
 		)
 		(stroke
@@ -6515,16 +6525,6 @@
 			(color 200 0 140 1)
 		)
 		(uuid "39c912b5-6e97-5f12-ae56-ca9fd9557b07")
-	)
-	(wire
-		(pts
-			(xy 143.51 167.64) (xy 146.05 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a86db78-7535-4434-885c-9877f15d7b24")
 	)
 	(wire
 		(pts
@@ -6873,16 +6873,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 172.72) (xy 146.05 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "791ec6e6-ab44-47e4-b633-ef41378a0c43")
-	)
-	(wire
-		(pts
 			(xy 54.61 71.12) (xy 54.61 68.58)
 		)
 		(stroke
@@ -7219,6 +7209,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 172.72) (xy 153.67 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d716ffc9-067f-49fd-8f9c-66725721f057")
+	)
+	(wire
+		(pts
 			(xy 35.56 88.9) (xy 35.56 91.44)
 		)
 		(stroke
@@ -7423,6 +7423,16 @@
 		)
 		(uuid "280975bc-eeef-52de-a065-94ba033a0fd9")
 	)
+	(label "USB_D-"
+		(at 153.67 167.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2bf0c5f4-c08e-4044-8354-591daf35968a")
+	)
 	(label "AMP_LRCLK"
 		(at 92.71 180.34 180)
 		(effects
@@ -7444,16 +7454,6 @@
 			(justify right bottom)
 		)
 		(uuid "3b9de609-ea85-5142-b1b8-c9f646da4ec7")
-	)
-	(label "USB_D+"
-		(at 146.05 172.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3d9b70b6-7d45-4b09-a437-2592b16524c0")
 	)
 	(label "BOOT"
 		(at 60.96 175.26 0)
@@ -7586,6 +7586,16 @@
 		)
 		(uuid "ae1d7936-bb70-5269-9470-2bd6eb53e82c")
 	)
+	(label "USB_D+"
+		(at 153.67 172.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b79318ff-af19-49b8-80ff-28c3473da9ab")
+	)
 	(label "GND"
 		(at 215.9 215.9 0)
 		(effects
@@ -7650,16 +7660,6 @@
 			(justify left bottom)
 		)
 		(uuid "cc03c42b-1c77-5d1a-b498-ed08f263f65b")
-	)
-	(label "USB_D-"
-		(at 146.05 167.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d1a7b4e5-8c22-4d8a-b0ec-8807eb5450f8")
 	)
 	(label "BTN"
 		(at 248.92 152.4 0)
@@ -11238,25 +11238,23 @@
 		(dnp no)
 		(uuid "50dcd499-7a36-4348-a61e-4ba58651ee20")
 		(property "Reference" "R8"
-			(at 140.462 166.878 0)
+			(at 138.37 165.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "22R"
-			(at 141.986 166.878 0)
+			(at 143.37 165.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -14654,25 +14652,23 @@
 		(dnp no)
 		(uuid "d30425a5-60ec-4f45-ac94-92627acd1b92")
 		(property "Reference" "R9"
-			(at 140.462 171.958 0)
+			(at 138.37 170.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "22R"
-			(at 141.986 171.958 0)
+			(at 143.37 170.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
