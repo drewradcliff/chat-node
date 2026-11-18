@@ -5034,7 +5034,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "ada0e384-98a1-4771-980f-539627762b5f")
+			(uuid "d980d83b-06bc-47c1-b4d0-acfe0b3cf09d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5046,7 +5046,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "44f7af8a-aad6-4149-b0b4-bd7c453151fe")
+			(uuid "1a64a069-6b90-4397-8017-6bda5b531374")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5058,13 +5058,7 @@
 		(path "/bde240f8-786b-5f8f-8a64-e8c201abd602")
 		(sheetname "/")
 		(sheetfile "chat-node.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -5173,7 +5167,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "44ef5122-e0f4-4fa6-9b93-4936e3008601")
+			(uuid "82ddd681-d562-4d17-86ed-85850393b14d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5185,7 +5179,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "b13f3d1c-2d6f-4670-860f-e741e05ffe75")
+			(uuid "bba02f86-e4d9-42dd-8347-d908ca430026")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5197,13 +5191,7 @@
 		(path "/938e74b1-b799-5116-a4c1-cf4b027898a0")
 		(sheetname "/")
 		(sheetfile "chat-node.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -5535,7 +5523,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "eba2c371-168b-4cbc-8adf-a4b763986612")
+			(uuid "6a7259d8-9f71-41ad-acdd-e2fca7b46c76")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5547,7 +5535,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "31b81097-0633-4e8a-8bcb-b96d075dd50c")
+			(uuid "1c96dc1f-9e33-49ae-9a8d-362f894a88f2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5559,13 +5547,7 @@
 		(path "/cb83ef1d-9b64-538f-b47e-3314ade7a142")
 		(sheetname "/")
 		(sheetfile "chat-node.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -5670,7 +5652,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "0ed0a07e-3348-4488-9c18-1373b6f86a17")
+			(uuid "05aee4ff-2a76-4f6f-99ff-ab3bae202da8")
 			(effects
 				(font
 					(size 1 1)
@@ -5682,7 +5664,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "b6e883f4-34a0-4c66-b418-280bfee028da")
+			(uuid "ff1ddc2e-eead-474f-9cc0-87e4fb0f1b4f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5694,7 +5676,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "bf82caa2-385b-4902-86a6-2bad14db4e73")
+			(uuid "84f57eb2-c96d-4896-af17-61dd72753229")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5706,13 +5688,7 @@
 		(path "/0c768a4e-1103-51ec-90d1-8bd832834cba")
 		(sheetname "/")
 		(sheetfile "chat-node.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -6265,7 +6241,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "8b5ac631-7beb-458a-969a-cebde878c3d2")
+			(uuid "592991d2-d34c-4383-abd0-848729a56f74")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6277,7 +6253,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "26eb030d-e55e-4fda-941d-32371b738c6b")
+			(uuid "14b24f10-cc3e-49ce-aedc-8c7b6381841c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6289,13 +6265,7 @@
 		(path "/3a03c431-9367-5b7b-abec-8eb5365db2da")
 		(sheetname "/")
 		(sheetfile "chat-node.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -6778,8 +6748,9 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R8"
-			(at -122.045 -98.945 0)
+			(at 0 -1.17 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "e384efb1-aa0a-4153-94d3-d99413bfa81e")
 			(effects
 				(font
@@ -6789,7 +6760,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at -122.045 -96.605 0)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "853a1003-3541-4f1b-aa1f-ca87697abfdf")
 			(effects
@@ -6800,7 +6771,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -122.045 -97.775 0)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5698d899-b1d1-4ecb-949e-cee233ea444c")
@@ -6811,7 +6782,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at -122.045 -97.775 0)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "88ee9959-31e5-4201-971e-13fce4894008")
@@ -6825,7 +6796,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "4d0d3e0e-3214-4be5-8015-fd54dc58a211")
+			(uuid "c774c43b-7fe7-47ad-addc-ef9c9e850d4b")
 			(effects
 				(font
 					(size 1 1)
@@ -6838,7 +6809,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "65d180fa-a914-41c9-8eb0-ced3b84d3180")
+			(uuid "7dd345cf-d80d-4e4e-8066-780ce9a6dbc2")
 			(effects
 				(font
 					(size 1 1)
@@ -6851,7 +6822,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2cf1b804-1fc4-4520-91fb-836539c3a1ed")
+			(uuid "eb39eb7d-1cf4-4803-b347-45b339e191cf")
 			(effects
 				(font
 					(size 1 1)
@@ -6864,7 +6835,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c0e8d1f7-a08b-415d-85e0-d06e5a0f1808")
+			(uuid "e363154c-675b-4f87-911f-84517bfc8f25")
 			(effects
 				(font
 					(size 1 1)
@@ -8989,7 +8960,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "d2192bde-592d-404a-97ed-4106329ebb6b")
+			(uuid "dd081264-5284-42b8-bd6a-9e45eb27a970")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9001,7 +8972,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "d06deec5-a3a0-4af0-b70a-2e2b7e481000")
+			(uuid "4a67defc-3d04-4dcd-b33d-fda45482f952")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9013,13 +8984,7 @@
 		(path "/5e44c6d3-c7a0-52fa-88f5-b9103f52d9e0")
 		(sheetname "/")
 		(sheetfile "chat-node.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -9579,18 +9544,18 @@
 		(descr "TDK T3902 bottom-port PDM MEMS microphone, LGA-5 3.5x2.65 mm. Land pattern and paste per TDK DS-000357 fig. 14/15 (identical to Knowles SPH0641LU4H-1): pads 0.725x0.522 at 1.675 x 0.822 pitch, GND ring 1.625/1.025 around a 0.5 mm port hole, pads 1 DATA, 2 SELECT, 3 GND, 4 CLK, 5 VDD.")
 		(tags "MEMS Microphone PDM LGA T3902 SPH0641LU4H")
 		(property "Reference" "MK1"
-			(at 0.110417 -2.910417 0)
+			(at -1 -3.34 0)
 			(layer "F.SilkS")
 			(uuid "4b0a866d-47c0-4c96-8092-b4a81f992ac7")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
 		(property "Value" "T3902"
-			(at 0.110417 2.889583 0)
+			(at 0 2.89 0)
 			(layer "F.Fab")
 			(uuid "3efd72d9-d812-4f05-a2ca-a6c0a9098a71")
 			(effects
@@ -9601,7 +9566,7 @@
 			)
 		)
 		(property "Datasheet" "TDK InvenSense DS-000357 (T3902 datasheet v1.0)"
-			(at 0.110417 -0.110417 0)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9614,7 +9579,7 @@
 			)
 		)
 		(property "Description" "PDM digital MEMS microphone, bottom port, 1.65-3.63 V, LGA-5 3.5x2.65 mm (TDK T3902; same pads and pinout as Knowles SPH0641LU4H-1)"
-			(at 0.110417 -0.110417 0)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9631,7 +9596,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7bf765c8-b04e-4532-a784-52f634394a89")
+			(uuid "55e38365-5ffb-4963-aee4-e4b6aa110349")
 			(effects
 				(font
 					(size 1 1)
@@ -9644,7 +9609,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f63d3103-ad98-4465-be6c-be5eacac1c90")
+			(uuid "ca57ebd1-5427-4006-ae35-be5c23715af5")
 			(effects
 				(font
 					(size 1 1)
@@ -9657,7 +9622,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fe2644e2-25c0-4c43-9e3c-0eb667464f94")
+			(uuid "aa503a32-40ca-43dd-927c-6b163abb8cc4")
 			(effects
 				(font
 					(size 1 1)
@@ -10005,7 +9970,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "14f246ca-9b9b-4fc3-8ff3-8f42b230441e")
+			(uuid "29ce91fc-5ff5-4f47-b013-a7e0217ffa53")
 			(effects
 				(font
 					(size 1 1)
@@ -10017,7 +9982,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "e29e56cd-632a-45d8-b54d-b871087148f9")
+			(uuid "6c20ca78-5040-4028-93dd-28738d761250")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10029,7 +9994,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "3a379de5-7741-42f1-95ed-7d6064c61e4c")
+			(uuid "b8b2b632-6d5d-48f5-b476-95e727d6648f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10041,13 +10006,7 @@
 		(path "/edf28f0d-4cca-5bf1-9019-5a6c64563fbc")
 		(sheetname "/")
 		(sheetfile "chat-node.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -10154,7 +10113,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "c4b18ed4-b189-4ba6-b1be-a079dd81b2da")
+			(uuid "25fb716f-c980-45e2-b774-cade34ee08be")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10166,7 +10125,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "04c23934-6c25-4748-be10-db0077df48e3")
+			(uuid "29a0f743-b69e-43c8-8a31-2e3f2a82b655")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10178,13 +10137,7 @@
 		(path "/9144d674-1e1b-5372-9638-b68b4f7ab9b7")
 		(sheetname "/")
 		(sheetfile "chat-node.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -11356,8 +11309,9 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R9"
-			(at -122.045 -95.685 0)
+			(at 0 -1.17 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "7ab77e0f-7ac9-4287-bcb4-b3db0d466bd3")
 			(effects
 				(font
@@ -11367,7 +11321,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at -122.045 -93.345 0)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "b06ae88b-5bc3-4e6a-ba24-87af39883c33")
 			(effects
@@ -11378,7 +11332,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -122.045 -94.515 0)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c53f9ca1-7617-4f20-bcc4-a42fc45e89a8")
@@ -11389,7 +11343,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at -122.045 -94.515 0)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4879e7fb-3e26-4332-9f3e-8cbafac95d47")
@@ -11403,7 +11357,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "24885c5d-9e7d-4ffc-9150-1e198e34b21a")
+			(uuid "a49da665-8d20-42c1-beee-7d90a8ef4948")
 			(effects
 				(font
 					(size 1 1)
@@ -11416,7 +11370,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9de43522-203c-472d-ab46-2535efea0456")
+			(uuid "d0305875-298a-4134-a815-b71705c743d2")
 			(effects
 				(font
 					(size 1 1)
@@ -11429,7 +11383,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2d3d8290-1b9f-4926-851c-6ff8368d2630")
+			(uuid "5db1a87a-7b95-45ab-b8aa-315b2af330db")
 			(effects
 				(font
 					(size 1 1)
@@ -11442,7 +11396,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "02e05fa5-937a-47e8-aa45-296e167e740b")
+			(uuid "3f0fc542-e362-468a-b538-29e69099aac5")
 			(effects
 				(font
 					(size 1 1)
@@ -12044,7 +11998,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "e875daab-130d-40ef-b306-ef0efba28c70")
+			(uuid "7aa816f8-5872-43f6-9839-f265443c5f19")
 			(effects
 				(font
 					(size 1 1)
@@ -12056,7 +12010,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "f55b2a1d-c3fb-4b5d-89aa-2cb2c93f970d")
+			(uuid "8822db8b-6387-4f84-bcd0-39d37be680a8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12068,7 +12022,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "6dadbdbf-37e0-4fee-a029-8c19f77d9bba")
+			(uuid "47432db3-35d6-4c47-be02-bf4eb2d647d8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12080,13 +12034,7 @@
 		(path "/9a85d16f-cca3-5295-924f-bd6881263b56")
 		(sheetname "/")
 		(sheetfile "chat-node.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -12193,7 +12141,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "4a63c64f-5673-45c2-a84c-0b2f9454f681")
+			(uuid "fe99732b-5aae-451b-b707-62b9472f4da8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12205,7 +12153,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "b36f5a7f-a320-4835-8328-c77004a3c2ae")
+			(uuid "3a008bbc-1638-4660-998a-78f8e44c453b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12217,13 +12165,7 @@
 		(path "/3aa6728e-bb08-57ae-9a46-4a07ae452573")
 		(sheetname "/")
 		(sheetfile "chat-node.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -12776,7 +12718,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "d7ad1695-3e67-48cb-a3dc-e19faf91a851")
+			(uuid "fbfd6236-165b-4bfa-a114-a94399086baf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12788,7 +12730,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "e189974e-20dd-4f47-bacd-b78b7ae30388")
+			(uuid "cc6135a5-d2b5-4d5f-9e30-50e65062761a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12800,7 +12742,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "81d1d3ef-3889-4de3-a454-76711845b70c")
+			(uuid "e50d0d43-1d76-4a33-9caf-70afefdaab46")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12812,7 +12754,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "f1a65bd4-089f-4a0a-8552-65acbe5ec4d6")
+			(uuid "31eaac25-4ad2-49fc-ae9f-2d87e2abac6d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12824,7 +12766,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "11b9a2d3-082c-4a59-a154-477bfc725b63")
+			(uuid "f36b7412-5c9b-4fda-ac90-165960369cc4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12836,7 +12778,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "a0f798f1-c134-4273-9a72-e27411455819")
+			(uuid "32049c83-cdb8-4610-8787-95c8614e09ed")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12847,13 +12789,7 @@
 		(path "/7c31b081-3972-5199-82e7-c3e822774b82")
 		(sheetname "/")
 		(sheetfile "chat-node.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -7.5 -7.5)
